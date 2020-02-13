@@ -25,16 +25,16 @@ The workshop will be held at:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Floor M*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Cambridge, MA 02142*
 
-### What should you bring to the workshop?
-You will need to bring a laptop. 
-
-You must bring a ***government or school issued ID*** and check-in at the Microsoft front desk at the main entrance. You will then be directed to floor M. 
-
 ### How do I get there?
 
 **Parking information:** The One Memorial Drive parking garage is in the NERD Center building and is open to the public. This garage is privately owned, and Microsoft is unable to validate parking. The daily maximum rate is $37.00. 
 ​
 **Public Transportation:** The NERD Center is a .3 mile walk from the Kendall/MIT red line stop and a .4 mile walk from several bus lines.
+
+### What should you bring to the workshop?
+You will need to bring a laptop. 
+
+You must bring a ***government or school issued ID*** and check-in at the Microsoft front desk at the main entrance. You will then be directed to floor M. 
 
 ---
 
@@ -87,4 +87,10 @@ You must bring a ***government or school issued ID*** and check-in at the Micros
 2. Read about the two different types of cells (code and text) in a `colab` notebook.
 3. Make sure you know how to 'run' or 'render' a cell.
 4. Find quick primers on `python` [here](https://ehmatthes.github.io/pcc/cheatsheets/README.html).
+
+---
+
+The WiDS Cambridge Datathon Workshop is generously sponsored by Microsoft NERD.
+
+<img src="/images/MSFT_logo.jpg">
 
