@@ -1,1 +1,1 @@
-# wids-datathon-2020
+# WiDS Datathon 2020
