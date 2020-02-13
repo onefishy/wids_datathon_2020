@@ -92,5 +92,5 @@ You must bring a ***government or school issued ID*** and check-in at the Micros
 
 The WiDS Cambridge Datathon Workshop is generously sponsored by Microsoft NERD.
 
-<img src="/images/MSFT_logo.jpg">
+![msft logo](./images/MSFT_logo.jpg)
 
