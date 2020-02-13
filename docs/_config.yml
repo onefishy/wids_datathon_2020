@@ -1,9 +1,6 @@
 title: WiDS Cambridge Datathon 2020
-logo: /images/logo.png
-description: 
-The WiDS Cambridge Datathon Workshop is an annual workshop preceding the <a href="https://www.widscambridge.org">WiDS Cambridge Conference</a>. 
-The workshop aims to provide mentorship and training for those interested in participating in the <a href="https://www.widsconference.org/datathon.html">WiDS Datathon Challenge</a>, 
-and, more generally, anyone with a strong interest in data science.
-show_downloads: true
+logo: 
+description: The WiDS Cambridge Datathon Workshop is an annual workshop preceding the WiDS Cambridge Conference. The workshop aims to provide mentorship and training for those interested in participating in the WiDS Datathon Challenge, and, more generally, anyone with a strong interest in data science.
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
