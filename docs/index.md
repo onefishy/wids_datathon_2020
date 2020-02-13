@@ -30,6 +30,12 @@ You will need to bring a laptop.
 
 You must bring a ***government or school issued ID*** and check-in at the Microsoft front desk at the main entrance. You will then be directed to floor M. 
 
+### How do I get there?
+
+**Parking information:** The One Memorial Drive parking garage is in the NERD Center building and is open to the public. This garage is privately owned, and Microsoft is unable to validate parking. The daily maximum rate is $37.00. 
+​
+**Public Transportation:** The NERD Center is a .3 mile walk from the Kendall/MIT red line stop and a .4 mile walk from several bus lines.
+
 ---
 
 # Workshop Schedule
