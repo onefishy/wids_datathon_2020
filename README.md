@@ -23,10 +23,15 @@ Replace `[notebook_name.ipyn]` with the name of the notebook you wish to view as
 
 
 ## Starter Code for Classification Task:
-https://colab.research.google.com/drive/1PwOsb4OrCOvidHnbs6X5jWZPLjCEFKyY#scrollTo=wK4to0IvSjXZ
+
+* [Part I: Data Exploration](https://colab.research.google.com/drive/14tnJTTvXWO-Y4oE7M_0jyuBDOm0ta6D0)
+* [Part II: Logistic Regression and Decision Tree Models for Classification](https://colab.research.google.com/drive/16i-EPZSVsPBx1YMjp_XkuutHBGs3cLTQ)
+
 
 ## Starter Code for Preparing Your Kaggle Competition:
-https://colab.research.google.com/drive/18bpy3bqof1oP6t0RaYT_bybODIEnZHMi?ts=5c6e39df
+
+https://www.kaggle.com/c/widsdatathon2020
+
 
 ---
 
