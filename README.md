@@ -10,7 +10,7 @@
 
 
 ## Setup for the Competition:
-Follow the Instructions on `Instruction_sheet.pdf`.
+Follow the Instructions on `/workshop_materials/Instruction_sheet.pdf`.
 
 ## Machine Learning Tutorial:
 Read through the `ipython` notebooks -- the `.ipyn` files.
