@@ -13,13 +13,13 @@
 Follow the Instructions on `/workshop_materials/Instruction_sheet.pdf`.
 
 ## Machine Learning Tutorial:
-Read through the `ipython` notebooks -- the `.ipyn` files.
+Read through the `ipython` notebooks -- the `.ipynb` files -- in `/workshop_materials/`.
 To view the notebooks as slides, in terminal:
 ```
 cd wids_2019
-jupyter nbconvert [notebook_name.ipyn] --to slides --post serve
+jupyter nbconvert [notebook_name.ipynb] --to slides --post serve
 ```
-Replace `[notebook_name.ipyn]` with the name of the notebook you wish to view as slides.
+Replace `[notebook_name.ipynb]` with the name of the notebook you wish to view as slides.
 
 
 ## Starter Code for Classification Task:
