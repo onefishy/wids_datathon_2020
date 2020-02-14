@@ -1,7 +1,4 @@
 ![](/workshop_materials/images/wids.jpg)
-
-# WiDS CAMBRIDGE DATATHON WORKSHOP 2020
-
 ![](/workshop_materials/images/long_logos.png)
 
 <br/>
@@ -9,6 +6,7 @@
 <br/>
 <br/>
 
+# WiDS CAMBRIDGE DATATHON WORKSHOP 2020
 ---
 
 ## Setup for the Competition:
