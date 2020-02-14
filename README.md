@@ -1,4 +1,4 @@
-![](/workshop_materials/images/wids.png)
+![](/workshop_materials/images/wids.jpg)
 
 # WiDS CAMBRIDGE DATATHON WORKSHOP 2020
 
