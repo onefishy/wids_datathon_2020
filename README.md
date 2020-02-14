@@ -1,10 +1,8 @@
-![](https://drive.google.com/uc?export=view&id=1jTMwxRlcUKSE57wnAE4ZT5Z_C8wL1vBC)
+![](/workshop_materials/images/wids.png)
 
 # WiDS CAMBRIDGE DATATHON WORKSHOP 2020
 
-<img src="https://drive.google.com/uc?export=view&id=1l4iYE3dPwszuz8Bg8ZVNqt8n3PEGwvAP" height=65px align='left'>
-<img src="https://drive.google.com/uc?export=view&id=1quSTLcH9v-_JxMgHRLxCZnlEfPXDx_lP" height=65px align='left'>
-<img src="https://drive.google.com/uc?export=view&id=1as5kaUFRlDkvVLVPuf7WeHg8FkbHqIZF" height=65px align='left'>
+![](/workshop_materials/images/long_logos.png)
 
 <br/>
 <br/>
