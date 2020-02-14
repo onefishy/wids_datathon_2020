@@ -29,7 +29,7 @@ Replace `[notebook_name.ipyn]` with the name of the notebook you wish to view as
 * [Part III: Neural Network Models for Classification](https://colab.research.google.com/drive/14XWE1k9diS6iSzx6eZ63TurkGCjar239)
 
 
-## Starter Code for Preparing Your Kaggle Competition:
+## Data and Starter Code for Preparing Your Kaggle Competition:
 
 https://www.kaggle.com/c/widsdatathon2020
 
