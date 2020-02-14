@@ -4,8 +4,10 @@
 <br/>
 <br/>
 
-# WiDS CAMBRIDGE DATATHON WORKSHOP 2020
 ---
+
+# WiDS CAMBRIDGE DATATHON WORKSHOP 2020
+
 
 ## Setup for the Competition:
 Follow the Instructions on `Instruction_sheet.pdf`.
