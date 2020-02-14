@@ -26,6 +26,7 @@ Replace `[notebook_name.ipyn]` with the name of the notebook you wish to view as
 
 * [Part I: Data Exploration](https://colab.research.google.com/drive/14tnJTTvXWO-Y4oE7M_0jyuBDOm0ta6D0)
 * [Part II: Logistic Regression and Decision Tree Models for Classification](https://colab.research.google.com/drive/16i-EPZSVsPBx1YMjp_XkuutHBGs3cLTQ)
+* [Part III: Neural Network Models for Classification](https://colab.research.google.com/drive/14XWE1k9diS6iSzx6eZ63TurkGCjar239)
 
 
 ## Starter Code for Preparing Your Kaggle Competition:
