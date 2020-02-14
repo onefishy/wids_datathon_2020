@@ -1,6 +1,4 @@
 ![](/workshop_materials/images/wids.jpg)
-![](/workshop_materials/images/long_logos.png)
-
 <br/>
 <br/>
 <br/>
@@ -27,3 +25,7 @@ https://colab.research.google.com/drive/1PwOsb4OrCOvidHnbs6X5jWZPLjCEFKyY#scroll
 
 ## Starter Code for Preparing Your Kaggle Competition:
 https://colab.research.google.com/drive/18bpy3bqof1oP6t0RaYT_bybODIEnZHMi?ts=5c6e39df
+
+---
+
+![](/workshop_materials/images/long_logos.png)
