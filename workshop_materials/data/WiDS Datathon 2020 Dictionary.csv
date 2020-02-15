@@ -1,0 +1,189 @@
+Category,Variable Name,Unit of Measure,Data Type,Description,Example
+identifier,encounter_id,None,integer,Unique identifier associated with a patient unit stay,None
+identifier,hospital_id,None,integer,Unique identifier associated with a hospital,None
+identifier,patient_id,None,integer,Unique identifier associated with a patient,None
+demographic,hospital_death,None,binary,Whether the patient died during this hospitalization,0
+demographic,age,Years,numeric,The age of the patient on unit admission,None
+demographic,bmi,kilograms/metres^2,string,The body mass index of the person on unit admission,21.5
+demographic,elective_surgery,None,binary,Whether the patient was admitted to the hospital for an elective surgical operation,0
+demographic,ethnicity,None,string,The common national or cultural tradition which the person belongs to,Caucasian
+demographic,gender,None,string,The genotypical sex of the patient,F
+demographic,height,centimetres,numeric,The height of the person on unit admission,180
+demographic,hospital_admit_source,None,string,The location of the patient prior to being admitted to the hospital,Home
+demographic,icu_admit_source,None,string,The location of the patient prior to being admitted to the unit,Operating room
+demographic,icu_admit_type,None,string,The type of unit admission for the patient,Cardiothoracic
+demographic,icu_id,None,integer,A unique identifier for the unit to which the patient was admitted,None
+demographic,icu_stay_type,None,string,,None
+demographic,icu_type,None,string,A classification which indicates the type of care the unit is capable of providing,Neurological ICU
+demographic,pre_icu_los_days,Days,numeric,The length of stay of the patient between hospital admission and unit admission,3.5
+demographic,readmission_status,None,binary,Whether the current unit stay is the second (or greater) stay at an ICU within the same hospitalization,0
+demographic,weight,kilograms,numeric,The weight (body mass) of the person on unit admission,80
+APACHE covariate,albumin_apache,g/L,numeric,The albumin concentration measured during the first 24 hours which results in the highest APACHE III score,30
+APACHE covariate,apache_2_diagnosis,None,string,The APACHE II diagnosis for the ICU admission,308
+APACHE covariate,apache_3j_diagnosis,None,string,The APACHE III-J sub-diagnosis code which best describes the reason for the ICU admission,1405
+APACHE covariate,apache_post_operative,None,binary,"The APACHE operative status; 1 for post-operative, 0 for non-operative",1
+APACHE covariate,arf_apache,None,binary,"Whether the patient had acute renal failure during the first 24 hours of their unit stay, defined as a 24 hour urine output <410ml, creatinine >=133 micromol/L and no chronic dialysis",0
+APACHE covariate,bilirubin_apache,micromol/L,numeric,The bilirubin concentration measured during the first 24 hours which results in the highest APACHE III score,20
+APACHE covariate,bun_apache,mmol/L,numeric,The blood urea nitrogen concentration measured during the first 24 hours which results in the highest APACHE III score,None
+APACHE covariate,creatinine_apache,micromol/L,numeric,The creatinine concentration measured during the first 24 hours which results in the highest APACHE III score,70
+APACHE covariate,fio2_apache,Fraction,numeric,The fraction of inspired oxygen from the arterial blood gas taken during the first 24 hours of unit admission which produces the highest APACHE III score for oxygenation,0.21
+APACHE covariate,gcs_eyes_apache,None,integer,The eye opening component of the Glasgow Coma Scale measured during the first 24 hours which results in the highest APACHE III score,4
+APACHE covariate,gcs_motor_apache,None,integer,The motor component of the Glasgow Coma Scale measured during the first 24 hours which results in the highest APACHE III score,6
+APACHE covariate,gcs_unable_apache,None,binary,Whether the Glasgow Coma Scale was unable to be assessed due to patient sedation,1
+APACHE covariate,gcs_verbal_apache,None,integer,The verbal component of the Glasgow Coma Scale measured during the first 24 hours which results in the highest APACHE III score,5
+APACHE covariate,glucose_apache,mmol/L,numeric,The glucose concentration measured during the first 24 hours which results in the highest APACHE III score,5
+APACHE covariate,heart_rate_apache,Beats per minute,numeric,The heart rate measured during the first 24 hours which results in the highest APACHE III score,75
+APACHE covariate,hematocrit_apache,Fraction,numeric,The hematocrit measured during the first 24 hours which results in the highest APACHE III score,0.4
+APACHE covariate,intubated_apache,None,binary,Whether the patient was intubated at the time of the highest scoring arterial blood gas used in the oxygenation score,0
+APACHE covariate,map_apache,Millimetres of mercury,numeric,The mean arterial pressure measured during the first 24 hours which results in the highest APACHE III score,None
+APACHE covariate,paco2_apache,Millimetres of mercury,numeric,The partial pressure of carbon dioxide from the arterial blood gas taken during the first 24 hours of unit admission which produces the highest APACHE III score for oxygenation,40
+APACHE covariate,paco2_for_ph_apache,Millimetres of mercury,numeric,The partial pressure of carbon dioxide from the arterial blood gas taken during the first 24 hours of unit admission which produces the highest APACHE III score for acid-base disturbance,40
+APACHE covariate,pao2_apache,Millimetres of mercury,numeric,The partial pressure of oxygen from the arterial blood gas taken during the first 24 hours of unit admission which produces the highest APACHE III score for oxygenation,80
+APACHE covariate,ph_apache,None,numeric,The pH from the arterial blood gas taken during the first 24 hours of unit admission which produces the highest APACHE III score for acid-base disturbance,7.4
+APACHE covariate,resprate_apache,Breaths per minute,numeric,The respiratory rate measured during the first 24 hours which results in the highest APACHE III score,14
+APACHE covariate,sodium_apache,mmol/L,numeric,The sodium concentration measured during the first 24 hours which results in the highest APACHE III score,145
+APACHE covariate,temp_apache,Degrees Celsius,numeric,The temperature measured during the first 24 hours which results in the highest APACHE III score,33
+APACHE covariate,urineoutput_apache,Millilitres,numeric,The total urine output for the first 24 hours,2000
+APACHE covariate,ventilated_apache,None,binary,"Whether the patient was invasively ventilated at the time of the highest scoring arterial blood gas using the oxygenation scoring algorithm, including any mode of positive pressure ventilation delivered through a circuit attached to an endo-tracheal tube or tracheostomy",1
+APACHE covariate,wbc_apache,10^9/L,numeric,The white blood cell count measured during the first 24 hours which results in the highest APACHE III score,10
+vitals,d1_diasbp_invasive_max,Millimetres of mercury,numeric,"The patient's highest diastolic blood pressure during the first 24 hours of their unit stay, invasively measured",60
+vitals,d1_diasbp_invasive_min,Millimetres of mercury,numeric,"The patient's lowest diastolic blood pressure during the first 24 hours of their unit stay, invasively measured",60
+vitals,d1_diasbp_max,Millimetres of mercury,numeric,"The patient's highest diastolic blood pressure during the first 24 hours of their unit stay, either non-invasively or invasively measured",60
+vitals,d1_diasbp_min,Millimetres of mercury,numeric,"The patient's lowest diastolic blood pressure during the first 24 hours of their unit stay, either non-invasively or invasively measured",60
+vitals,d1_diasbp_noninvasive_max,Millimetres of mercury,numeric,"The patient's highest diastolic blood pressure during the first 24 hours of their unit stay, non-invasively measured",60
+vitals,d1_diasbp_noninvasive_min,Millimetres of mercury,numeric,"The patient's lowest diastolic blood pressure during the first 24 hours of their unit stay, non-invasively measured",60
+vitals,d1_heartrate_max,Beats per minute,numeric,The patient's highest heart rate during the first 24 hours of their unit stay,75
+vitals,d1_heartrate_min,Beats per minute,numeric,The patient's lowest heart rate during the first 24 hours of their unit stay,75
+vitals,d1_mbp_invasive_max,Millimetres of mercury,numeric,"The patient's highest mean blood pressure during the first 24 hours of their unit stay, invasively measured",80
+vitals,d1_mbp_invasive_min,Millimetres of mercury,numeric,"The patient's lowest mean blood pressure during the first 24 hours of their unit stay, invasively measured",80
+vitals,d1_mbp_max,Millimetres of mercury,numeric,"The patient's highest mean blood pressure during the first 24 hours of their unit stay, either non-invasively or invasively measured",80
+vitals,d1_mbp_min,Millimetres of mercury,numeric,"The patient's lowest mean blood pressure during the first 24 hours of their unit stay, either non-invasively or invasively measured",80
+vitals,d1_mbp_noninvasive_max,Millimetres of mercury,numeric,"The patient's highest mean blood pressure during the first 24 hours of their unit stay, non-invasively measured",80
+vitals,d1_mbp_noninvasive_min,Millimetres of mercury,numeric,"The patient's lowest mean blood pressure during the first 24 hours of their unit stay, non-invasively measured",80
+vitals,d1_resprate_max,Breaths per minute,numeric,The patient's highest respiratory rate during the first 24 hours of their unit stay,14
+vitals,d1_resprate_min,Breaths per minute,numeric,The patient's lowest respiratory rate during the first 24 hours of their unit stay,14
+vitals,d1_spo2_max,Percentage,numeric,The patient's highest peripheral oxygen saturation during the first 24 hours of their unit stay,None
+vitals,d1_spo2_min,Percentage,numeric,The patient's lowest peripheral oxygen saturation during the first 24 hours of their unit stay,100
+vitals,d1_sysbp_invasive_max,Millimetres of mercury,numeric,"The patient's highest systolic blood pressure during the first 24 hours of their unit stay, invasively measured",120
+vitals,d1_sysbp_invasive_min,Millimetres of mercury,numeric,"The patient's lowest systolic blood pressure during the first 24 hours of their unit stay, invasively measured",120
+vitals,d1_sysbp_max,Millimetres of mercury,numeric,"The patient's highest systolic blood pressure during the first 24 hours of their unit stay, either non-invasively or invasively measured",120
+vitals,d1_sysbp_min,Millimetres of mercury,numeric,"The patient's lowest systolic blood pressure during the first 24 hours of their unit stay, either non-invasively or invasively measured",120
+vitals,d1_sysbp_noninvasive_max,Millimetres of mercury,numeric,"The patient's highest systolic blood pressure during the first 24 hours of their unit stay, non-invasively measured",120
+vitals,d1_sysbp_noninvasive_min,Millimetres of mercury,numeric,"The patient's lowest systolic blood pressure during the first 24 hours of their unit stay, non-invasively measured",120
+vitals,d1_temp_max,Degrees Celsius,numeric,"The patient's highest core temperature during the first 24 hours of their unit stay, invasively measured",33
+vitals,d1_temp_min,Degrees Celsius,numeric,The patient's lowest core temperature during the first 24 hours of their unit stay,33
+vitals,h1_diasbp_invasive_max,Millimetres of mercury,numeric,"The patient's highest diastolic blood pressure during the first hour of their unit stay, invasively measured",60
+vitals,h1_diasbp_invasive_min,Millimetres of mercury,numeric,"The patient's lowest diastolic blood pressure during the first hour of their unit stay, invasively measured",60
+vitals,h1_diasbp_max,Millimetres of mercury,numeric,"The patient's highest diastolic blood pressure during the first hour of their unit stay, either non-invasively or invasively measured",60
+vitals,h1_diasbp_min,Millimetres of mercury,numeric,"The patient's lowest diastolic blood pressure during the first hour of their unit stay, either non-invasively or invasively measured",60
+vitals,h1_diasbp_noninvasive_max,Millimetres of mercury,numeric,"The patient's highest diastolic blood pressure during the first hour of their unit stay, non-invasively measured",60
+vitals,h1_diasbp_noninvasive_min,Millimetres of mercury,numeric,"The patient's lowest diastolic blood pressure during the first hour of their unit stay, non-invasively measured",60
+vitals,h1_heartrate_max,Beats per minute,numeric,The patient's highest heart rate during the first hour of their unit stay,75
+vitals,h1_heartrate_min,Beats per minute,numeric,The patient's lowest heart rate during the first hour of their unit stay,75
+vitals,h1_mbp_invasive_max,Millimetres of mercury,numeric,"The patient's highest mean blood pressure during the first hour of their unit stay, invasively measured",80
+vitals,h1_mbp_invasive_min,Millimetres of mercury,numeric,"The patient's lowest mean blood pressure during the first hour of their unit stay, invasively measured",80
+vitals,h1_mbp_max,Millimetres of mercury,numeric,"The patient's highest mean blood pressure during the first hour of their unit stay, either non-invasively or invasively measured",80
+vitals,h1_mbp_min,Millimetres of mercury,numeric,"The patient's lowest mean blood pressure during the first hour of their unit stay, either non-invasively or invasively measured",80
+vitals,h1_mbp_noninvasive_max,Millimetres of mercury,numeric,"The patient's highest mean blood pressure during the first hour of their unit stay, non-invasively measured",80
+vitals,h1_mbp_noninvasive_min,Millimetres of mercury,numeric,"The patient's lowest mean blood pressure during the first hour of their unit stay, non-invasively measured",80
+vitals,h1_resprate_max,Breaths per minute,numeric,The patient's highest respiratory rate during the first hour of their unit stay,14
+vitals,h1_resprate_min,Breaths per minute,numeric,The patient's lowest respiratory rate during the first hour of their unit stay,14
+vitals,h1_spo2_max,Percentage,numeric,The patient's highest peripheral oxygen saturation during the first hour of their unit stay,None
+vitals,h1_spo2_min,Percentage,numeric,The patient's lowest peripheral oxygen saturation during the first hour of their unit stay,100
+vitals,h1_sysbp_invasive_max,Millimetres of mercury,numeric,"The patient's highest systolic blood pressure during the first hour of their unit stay, invasively measured",120
+vitals,h1_sysbp_invasive_min,Millimetres of mercury,numeric,"The patient's lowest systolic blood pressure during the first hour of their unit stay, invasively measured",120
+vitals,h1_sysbp_max,Millimetres of mercury,numeric,"The patient's highest systolic blood pressure during the first hour of their unit stay, either non-invasively or invasively measured",120
+vitals,h1_sysbp_min,Millimetres of mercury,numeric,"The patient's lowest systolic blood pressure during the first hour of their unit stay, either non-invasively or invasively measured",120
+vitals,h1_sysbp_noninvasive_max,Millimetres of mercury,numeric,"The patient's highest systolic blood pressure during the first hour of their unit stay, non-invasively measured",120
+vitals,h1_sysbp_noninvasive_min,Millimetres of mercury,numeric,"The patient's lowest systolic blood pressure during the first hour of their unit stay, non-invasively measured",120
+vitals,h1_temp_max,Degrees Celsius,numeric,"The patient's highest core temperature during the first hour of their unit stay, invasively measured",33
+vitals,h1_temp_min,Degrees Celsius,numeric,The patient's lowest core temperature during the first hour of their unit stay,33
+labs,d1_albumin_max,None,numeric,The lowest albumin concentration of the patient in their serum during the first 24 hours of their unit stay,30
+labs,d1_albumin_min,g/L,numeric,The lowest albumin concentration of the patient in their serum during the first 24 hours of their unit stay,30
+labs,d1_bilirubin_max,micromol/L,numeric,The highest bilirubin concentration of the patient in their serum or plasma during the first 24 hours of their unit stay,20
+labs,d1_bilirubin_min,micromol/L,numeric,The lowest bilirubin concentration of the patient in their serum or plasma during the first 24 hours of their unit stay,20
+labs,d1_bun_max,mmol/L,numeric,The highest blood urea nitrogen concentration of the patient in their serum or plasma during the first 24 hours of their unit stay,5
+labs,d1_bun_min,mmol/L,numeric,The lowest blood urea nitrogen concentration of the patient in their serum or plasma during the first 24 hours of their unit stay,5
+labs,d1_calcium_max,mmol/L,numeric,The highest calcium concentration of the patient in their serum during the first 24 hours of their unit stay,2.5
+labs,d1_calcium_min,mmol/L,numeric,The lowest calcium concentration of the patient in their serum during the first 24 hours of their unit stay,2.5
+labs,d1_creatinine_max,micromol/L,numeric,The highest creatinine concentration of the patient in their serum or plasma during the first 24 hours of their unit stay,70
+labs,d1_creatinine_min,micromol/L,numeric,The lowest creatinine concentration of the patient in their serum or plasma during the first 24 hours of their unit stay,70
+labs,d1_glucose_max,mmol/L,numeric,The highest glucose concentration of the patient in their serum or plasma during the first 24 hours of their unit stay,5
+labs,d1_glucose_min,mmol/L,numeric,The lowest glucose concentration of the patient in their serum or plasma during the first 24 hours of their unit stay,5
+labs,d1_hco3_max,mmol/L,numeric,The highest bicarbonate concentration for the patient in their serum or plasma during the first 24 hours of their unit stay,30
+labs,d1_hco3_min,None,numeric,The lowest bicarbonate concentration for the patient in their serum or plasma during the first 24 hours of their unit stay,30
+labs,d1_hemaglobin_max,g/dL,numeric,The highest hemoglobin concentration for the patient during the first 24 hours of their unit stay,10
+labs,d1_hemaglobin_min,g/dL,numeric,The lowest hemoglobin concentration for the patient during the first 24 hours of their unit stay,10
+labs,d1_hematocrit_max,Fraction,numeric,"The highest volume proportion of red blood cells in a patient's blood during the first 24 hours of their unit stay, expressed as a fraction",0.4
+labs,d1_hematocrit_min,Fraction,numeric,"The lowest volume proportion of red blood cells in a patient's blood during the first 24 hours of their unit stay, expressed as a fraction",0.4
+labs,d1_inr_max,micromol/L,numeric,The highest international normalized ratio for the patient during the first 24 hours of their unit stay,1
+labs,d1_inr_min,micromol/L,numeric,The lowest international normalized ratio for the patient during the first 24 hours of their unit stay,1
+labs,d1_lactate_max,mmol/L,numeric,The highest lactate concentration for the patient in their serum or plasma during the first 24 hours of their unit stay,1
+labs,d1_lactate_min,mmol/L,numeric,The lowest lactate concentration for the patient in their serum or plasma during the first 24 hours of their unit stay,1
+labs,d1_platelets_max,10^9/L,numeric,The highest platelet count for the patient during the first 24 hours of their unit stay,200
+labs,d1_platelets_min,10^9/L,numeric,The lowest platelet count for the patient during the first 24 hours of their unit stay,200
+labs,d1_potassium_max,mmol/L,numeric,The highest potassium concentration for the patient in their serum or plasma during the first 24 hours of their unit stay,3.8
+labs,d1_potassium_min,mmol/L,numeric,The lowest potassium concentration for the patient in their serum or plasma during the first 24 hours of their unit stay,3.8
+labs,d1_sodium_max,mmol/L,numeric,The highest sodium concentration for the patient in their serum or plasma during the first 24 hours of their unit stay,145
+labs,d1_sodium_min,mmol/L,numeric,The lowest sodium concentration for the patient in their serum or plasma during the first 24 hours of their unit stay,145
+labs,d1_wbc_max,10^9/L,numeric,The highest white blood cell count for the patient during the first 24 hours of their unit stay,10
+labs,d1_wbc_min,10^9/L,numeric,The lowest white blood cell count for the patient during the first 24 hours of their unit stay,10
+labs,h1_albumin_max,None,numeric,The lowest albumin concentration of the patient in their serum during the first hour of their unit stay,30
+labs,h1_albumin_min,g/L,numeric,The lowest albumin concentration of the patient in their serum during the first hour of their unit stay,30
+labs,h1_bilirubin_max,micromol/L,numeric,The highest bilirubin concentration of the patient in their serum or plasma during the first hour of their unit stay,20
+labs,h1_bilirubin_min,micromol/L,numeric,The lowest bilirubin concentration of the patient in their serum or plasma during the first hour of their unit stay,20
+labs,h1_bun_max,mmol/L,numeric,The highest blood urea nitrogen concentration of the patient in their serum or plasma during the first hour of their unit stay,5
+labs,h1_bun_min,mmol/L,numeric,The lowest blood urea nitrogen concentration of the patient in their serum or plasma during the first hour of their unit stay,5
+labs,h1_calcium_max,mmol/L,numeric,The highest calcium concentration of the patient in their serum during the first hour of their unit stay,2.5
+labs,h1_calcium_min,mmol/L,numeric,The lowest calcium concentration of the patient in their serum during the first hour of their unit stay,2.5
+labs,h1_creatinine_max,micromol/L,numeric,The highest creatinine concentration of the patient in their serum or plasma during the first hour of their unit stay,70
+labs,h1_creatinine_min,micromol/L,numeric,The lowest creatinine concentration of the patient in their serum or plasma during the first hour of their unit stay,70
+labs,h1_glucose_max,mmol/L,numeric,The highest glucose concentration of the patient in their serum or plasma during the first hour of their unit stay,5
+labs,h1_glucose_min,mmol/L,numeric,The lowest glucose concentration of the patient in their serum or plasma during the first hour of their unit stay,5
+labs,h1_hco3_max,mmol/L,numeric,The highest bicarbonate concentration for the patient in their serum or plasma during the first hour of their unit stay,30
+labs,h1_hco3_min,None,numeric,The lowest bicarbonate concentration for the patient in their serum or plasma during the first hour of their unit stay,30
+labs,h1_hemaglobin_max,g/dL,numeric,The highest hemoglobin concentration for the patient during the first hour of their unit stay,10
+labs,h1_hemaglobin_min,g/dL,numeric,The lowest hemoglobin concentration for the patient during the first hour of their unit stay,10
+labs,h1_hematocrit_max,Fraction,numeric,"The highest volume proportion of red blood cells in a patient's blood during the first hour of their unit stay, expressed as a fraction",0.4
+labs,h1_hematocrit_min,Fraction,numeric,"The lowest volume proportion of red blood cells in a patient's blood during the first hour of their unit stay, expressed as a fraction",0.4
+labs,h1_inr_max,micromol/L,numeric,The highest international normalized ratio for the patient during the first hour of their unit stay,1
+labs,h1_inr_min,micromol/L,numeric,The lowest international normalized ratio for the patient during the first hour of their unit stay,1
+labs,h1_lactate_max,mmol/L,numeric,The highest lactate concentration for the patient in their serum or plasma during the first hour of their unit stay,1
+labs,h1_lactate_min,mmol/L,numeric,The lowest lactate concentration for the patient in their serum or plasma during the first hour of their unit stay,1
+labs,h1_platelets_max,10^9/L,numeric,The highest platelet count for the patient during the first hour of their unit stay,200
+labs,h1_platelets_min,10^9/L,numeric,The lowest platelet count for the patient during the first hour of their unit stay,200
+labs,h1_potassium_max,mmol/L,numeric,The highest potassium concentration for the patient in their serum or plasma during the first hour of their unit stay,3.8
+labs,h1_potassium_min,mmol/L,numeric,The lowest potassium concentration for the patient in their serum or plasma during the first hour of their unit stay,3.8
+labs,h1_sodium_max,mmol/L,numeric,The highest sodium concentration for the patient in their serum or plasma during the first hour of their unit stay,145
+labs,h1_sodium_min,mmol/L,numeric,The lowest sodium concentration for the patient in their serum or plasma during the first hour of their unit stay,145
+labs,h1_wbc_max,10^9/L,numeric,The highest white blood cell count for the patient during the first hour of their unit stay,10
+labs,h1_wbc_min,10^9/L,numeric,The lowest white blood cell count for the patient during the first hour of their unit stay,10
+labs blood gas,d1_arterial_pco2_max,Millimetres of mercury,numeric,The highest arterial partial pressure of carbon dioxide for the patient during the first 24 hours of their unit stay,40
+labs blood gas,d1_arterial_pco2_min,Millimetres of mercury,numeric,The lowest arterial partial pressure of carbon dioxide for the patient during the first 24 hours of their unit stay,40
+labs blood gas,d1_arterial_ph_max,None,numeric,The highest arterial pH for the patient during the first 24 hours of their unit stay,7.4
+labs blood gas,d1_arterial_ph_min,None,numeric,The lowest arterial pH for the patient during the first 24 hours of their unit stay,7.4
+labs blood gas,d1_arterial_po2_max,Millimetres of mercury,numeric,The highest arterial partial pressure of oxygen for the patient during the first 24 hours of their unit stay,80
+labs blood gas,d1_arterial_po2_min,Millimetres of mercury,numeric,The lowest arterial partial pressure of oxygen for the patient during the first 24 hours of their unit stay,80
+labs blood gas,d1_pao2fio2ratio_max,Fraction,numeric,The highest fraction of inspired oxygen for the patient during the first 24 hours of their unit stay,0.21
+labs blood gas,d1_pao2fio2ratio_min,Fraction,numeric,The lowest fraction of inspired oxygen for the patient during the first 24 hours of their unit stay,0.21
+labs blood gas,h1_arterial_pco2_max,Millimetres of mercury,numeric,The highest arterial partial pressure of carbon dioxide for the patient during the first hour of their unit stay,40
+labs blood gas,h1_arterial_pco2_min,Millimetres of mercury,numeric,The lowest arterial partial pressure of carbon dioxide for the patient during the first hour of their unit stay,40
+labs blood gas,h1_arterial_ph_max,None,numeric,The highest arterial pH for the patient during the first hour of their unit stay,7.4
+labs blood gas,h1_arterial_ph_min,None,numeric,The lowest arterial pH for the patient during the first hour of their unit stay,7.4
+labs blood gas,h1_arterial_po2_max,Millimetres of mercury,numeric,The highest arterial partial pressure of oxygen for the patient during the first hour of their unit stay,80
+labs blood gas,h1_arterial_po2_min,Millimetres of mercury,numeric,The lowest arterial partial pressure of oxygen for the patient during the first hour of their unit stay,80
+labs blood gas,h1_pao2fio2ratio_max,Fraction,numeric,The highest fraction of inspired oxygen for the patient during the first hour of their unit stay,0.21
+labs blood gas,h1_pao2fio2ratio_min,Fraction,numeric,The lowest fraction of inspired oxygen for the patient during the first hour of their unit stay,0.21
+APACHE prediction,apache_4a_hospital_death_prob,None,numeric,"The APACHE IVa probabilistic prediction of in-hospital mortality for the patient which utilizes the APACHE III score and other covariates, including diagnosis.",0.31
+APACHE prediction,apache_4a_icu_death_prob,None,numeric,"The APACHE IVa probabilistic prediction of in ICU mortality for the patient which utilizes the APACHE III score and other covariates, including diagnosis",0.24
+APACHE comorbidity,aids,None,binary,Whether the patient has a definitive diagnosis of acquired immune deficiency syndrome (AIDS) (not HIV positive alone),1
+APACHE comorbidity,cirrhosis,None,binary,"Whether the patient has a history of heavy alcohol use with portal hypertension and varices, other causes of cirrhosis with evidence of portal hypertension and varices, or biopsy proven cirrhosis. This comorbidity does not apply to patients with a functioning liver transplant.",1
+APACHE comorbidity,diabetes_mellitus,None,binary,"Whether the patient has been diagnosed with diabetes, either juvenile or adult onset, which requires medication.",1
+APACHE comorbidity,hepatic_failure,None,binary,"Whether the patient has cirrhosis and additional complications including jaundice and ascites, upper GI bleeding, hepatic encephalopathy, or coma.",1
+APACHE comorbidity,immunosuppression,None,binary,"Whether the patient has their immune system suppressed within six months prior to ICU admission for any of the following reasons; radiation therapy, chemotherapy, use of non-cytotoxic immunosuppressive drugs, high dose steroids (at least 0.3 mg/kg/day of methylprednisolone or equivalent for at least 6 months).",1
+APACHE comorbidity,leukemia,None,binary,"Whether the patient has been diagnosed with acute or chronic myelogenous leukemia, acute or chronic lymphocytic leukemia, or multiple myeloma.",1
+APACHE comorbidity,lymphoma,None,binary,Whether the patient has been diagnosed with non-Hodgkin lymphoma.,1
+APACHE comorbidity,solid_tumor_with_metastasis,None,binary,Whether the patient has been diagnosed with any solid tumor carcinoma (including malignant melanoma) which has evidence of metastasis.,1
+APACHE grouping,apache_3j_bodysystem,None,string,Admission diagnosis group for APACHE III,Cardiovascular
+APACHE grouping,apache_2_bodysystem,None,string,Admission diagnosis group for APACHE II,Respiratory
+GOSSIS example prediction,pred,None,numeric,"Example mortality prediction, shared as a 'baseline' based on one of the GOSSIS algorithm development models.",0.000921
