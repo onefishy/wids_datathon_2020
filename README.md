@@ -16,7 +16,7 @@ Follow the Instructions on `/workshop_materials/Instruction_sheet.pdf`.
 Read through the `ipython` notebooks -- the `.ipynb` files -- in `/workshop_materials/`.
 To view the notebooks as slides, in terminal:
 ```
-cd wids_2019
+cd wids_datathon_2020/workshop_materials
 jupyter nbconvert [notebook_name.ipynb] --to slides --post serve
 ```
 Replace `[notebook_name.ipynb]` with the name of the notebook you wish to view as slides.
