@@ -31,8 +31,9 @@ Replace `[notebook_name.ipynb]` with the name of the notebook you wish to view a
 
 ## Data and Starter Code for Preparing Your Kaggle Competition:
 
-https://www.kaggle.com/c/widsdatathon2020
+* [Code for Downloading Data and Submitting Results](https://colab.research.google.com/drive/1qXi4rTPuLADEiea8xbWy1HY-2Hzd2qrS)
 
+* [Link to Kaggle site](https://www.kaggle.com/c/widsdatathon2020)
 
 ---
 
